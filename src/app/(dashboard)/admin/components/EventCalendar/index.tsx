@@ -2,7 +2,7 @@
 import EventCard from "./components/EventCard";
 import ReactCalendar from "./components/ReactCalendar";
 
-const EventCalender =async ({
+const EventCalendar =async ({
   searchParams,
 }: {
   searchParams: { [keys: string]: string | undefined };
@@ -18,4 +18,4 @@ const EventCalender =async ({
     );
 }
 
-export default EventCalender
+export default EventCalendar
